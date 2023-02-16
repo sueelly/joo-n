@@ -1,2 +1,2 @@
 # joo-n
-javascript stuty with one joo and two joon
+javascript study with one joo and two joon
