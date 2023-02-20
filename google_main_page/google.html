@@ -8,12 +8,12 @@
   <body>
     <nav>
       <div class="leftNav">
-        <div  id="navText"><a href="#">Google 정보</a></div>
-        <div id="navText"><a href="#">스토어</a></div>
+        <div class="navText"><a href="#">Google 정보</a></div>
+        <div class="navText"><a href="#">스토어</a></div>
       </div>
       <div class="rightNav">
-        <div id="navText"><a href="#">Gmail</a></div>
-        <div id="navText"><a href="#">이미지</a></div>
+        <div class="navText"><a href="#">Gmail</a></div>
+        <div class="navText"><a href="#">이미지</a></div>
         <a href="#"><img id="menu" src="google_menu.jpg" alt="Google Menu"></a>
         <a href="#"><img id="profile" src="google_profile.jpg" alt="Profile"></a>
       </div>
@@ -22,33 +22,33 @@
       <div><img  id="googleLogo" src="google_logo.jpg" alt="google logo">
       </div>
       <div class="searchBar">
-        <div><img class="searchIcon" id="magni" src="google_magnifying.jpg" alt="magnifying ">
+        <div>
+          <img class="searchIcon" id="magni" src="google_magnifying.jpg" alt="magnifying ">
         </div>
-        <input id="search" type="text" onkeyup="enterSearch(event);" placeholder="<향룡이 만든 구글페이지> 원하는 거 있으면 입력해라">
-
-        <div><img class="searchIcon" id="keyboard" src="google_keyboard.jpg" alt="keyboard">
-
+        <input id="search" type="text" onkeyup="enterSearch(event);" placeholder="<향룡이 만든 구글페이지> 원하는 거 있으면 입력하세요">
+        <div>
+          <img class="searchIcon" id="keyboard" src="google_keyboard.jpg" alt="keyboard">
         </div>
-        <div><img class="searchIcon" id="mic" src="google_mic.jpg" alt="mic">
-        </div>
-      </div>
-      <div class="button">
-        <div id="searchButton"><a href="#">Google 검색
-          </a>
-        </div>
-        <div id="feeling"><a href="#">I'm Feeling Lucky
-          </a>
-
+        <div>
+          <img class="searchIcon" id="mic" src="google_mic.jpg" alt="mic">
         </div>
       </div>
-
+      <div class="buttonBox">
+        <div class="button" id="googleSearchButton">
+          <a href="#">Google 검색</a>
+        </div>
+        <div class="button" id="feelingButton">
+          <a href="#">I'm Feeling Lucky</a>
+        </div>
+      </div>
     </section>
-    <footer>
-      <div id="korea"><a href="#">대한민국</a>
 
+    <footer>
+      <div class="footerfront">
+        <a href="#" class="footerfont">대한민국</a>
       </div>
       <hr size=0.5px color=#DEDEDE>
-      <div class="footer2">
+      <div class="footerback">
         <div class="footerLeft">
           <a href="#">광고</a>
           <a href="#">비즈니스</a>
@@ -59,7 +59,6 @@
           <a href="#">약관</a>
           <a href="#">설정</a>
         </div>
-
       </div>
     </footer>
   </body>
