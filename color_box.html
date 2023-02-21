@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>color box</title>
+        <style>
+            body
+            {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+                
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .bigBox
+            {
+                width: 70%;
+                height: 30%;
+                background-color: blanchedalmond;
+
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+            }
+            .smallBox
+            {
+                height: 100%;
+                width: 10%;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="bigBox">
+            <div class="smallBox" style="background-color: red;"></div>
+            <div class="smallBox" style="background-color: blue;"></div>
+            <div class="smallBox" style="background-color: green;"></div>
+        </div>
+    </body>
+</html>
